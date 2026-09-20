@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Mishra — The Hogwarts Archives | Engineering, Code & Observation</title>
+  <meta name="description" content="Personal portfolio of Ayush Mishra — Mechanical Engineering student, developer, robotics explorer, and photographer. An original character inside the Hogwarts universe.">
+
+  <!-- Google Fonts: Cinzel, Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="parchment-theme">
+
+  <!-- VINTAGE ARCHIVE OVERLAY TEXTURE & VIGNETTE -->
+  <div class="archive-grain" aria-hidden="true"></div>
+  <div class="archive-vignette" aria-hidden="true"></div>
+
+  <!-- STICKY ARCHIVAL NAVIGATION -->
+  <header class="archive-nav" id="archiveNav">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Hogwarts Archives Home">
+        <span class="wax-monogram">AM</span>
+        <div class="brand-text">
+          <span class="brand-title">HOGWARTS ARCHIVES</span>
+          <span class="brand-sub">RECORD REF. 2024-ME</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Archives Navigation">
+        <a href="#hero" class="nav-link active">Archives</a>
+        <a href="#record" class="nav-link">Record</a>
+        <a href="#connection" class="nav-link">Triad</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#skills" class="nav-link">Spells & Skills</a>
+        <a href="#projects" class="nav-link">Works</a>
+        <a href="#observer" class="nav-link">Observer</a>
+        <a href="#owl-post" class="nav-link">Owl Post</a>
+      </nav>
+
+      <!-- Sorting Hat CTA & Mobile Toggle -->
+      <div class="nav-actions">
+        <button type="button" class="btn-sorting-hat-trigger" id="openSortingHatBtn" aria-label="Consult the Sorting Hat">
+          <span class="hat-icon" aria-hidden="true">🧙‍♂️</span>
+          <span class="hat-text">Sorting Hat</span>
+        </button>
+
+        <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="drawer-header">
+        <span class="drawer-title">THE ARCHIVES INDEX</span>
+        <button type="button" class="drawer-close" id="closeDrawerBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="drawer-links">
+        <a href="#hero" class="drawer-link">Archives Home</a>
+        <a href="#record" class="drawer-link">Character Record</a>
+        <a href="#connection" class="drawer-link">The Triad Connection</a>
+        <a href="#about" class="drawer-link">About The Student</a>
+        <a href="#journey" class="drawer-link">The Journey (Chapters I–V)</a>
+        <a href="#skills" class="drawer-link">Spells & Skills</a>
+        <a href="#projects" class="drawer-link">Magical Archives (Projects)</a>
+        <a href="#observer" class="drawer-link">The Observer (Photography)</a>
+        <a href="#achievements" class="drawer-link">Wizarding Record</a>
+        <a href="#owl-post" class="drawer-link">Owl Post (Contact)</a>
+      </nav>
+      <div class="drawer-footer">
+        <button type="button" class="btn-sorting-hat-mobile" id="openSortingHatMobileBtn">
+          <span>Consult The Sorting Hat</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN ARCHIVE CONTENT -->
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="section-container hero-container">
+        <!-- Archival Ribbon / Docket Header -->
+        <div class="docket-stamp-banner">
+          <span class="docket-seal">DEPARTMENT OF MAGICAL ARTIFACTS & INNOVATION</span>
+          <span class="docket-meta">ENTRY CODE: MUGGLE-BORN-ENG-09</span>
+        </div>
+
+        <div class="hero-parchment-card">
+          <div class="card-filigree corner-top-left" aria-hidden="true"></div>
+          <div class="card-filigree corner-top-right" aria-hidden="true"></div>
+          <div class="card-filigree corner-bottom-left" aria-hidden="true"></div>
+          <div class="card-filigree corner-bottom-right" aria-hidden="true"></div>
+
+          <div class="hero-archival-header">
+            <span class="hero-kicker">THE HOGWARTS ARCHIVES • PERSONAL DOSSIER</span>
+            <div class="hero-rule-ornament">✦ ✦ ✦</div>
+          </div>
+
+          <h1 class="hero-name">AYUSH MISHRA</h1>
+
+          <p class="hero-role-title">
+            <span class="role-badge">Mechanical Engineering Student</span>
+            <span class="role-separator">•</span>
+            <span class="role-triad">Developer <span class="triad-dot">/</span> Robotics Explorer <span class="triad-dot">/</span> Photographer</span>
+          </p>
+
+          <blockquote class="hero-philosophical-quote">
+            “Somewhere between the Muggle world and the wizarding world, I found my own kind of magic — <span class="emphasis-script">building things</span>.”
+          </blockquote>
+
+          <div class="hero-mantra">
+            <span>Code.</span>
+            <span class="mantra-dot">✦</span>
+            <span>Machines.</span>
+            <span class="mantra-dot">✦</span>
+            <span>Images.</span>
+            <span class="mantra-dot">✦</span>
+            <span>Curiosity.</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#record" class="btn-archival primary-action">
+              <span class="btn-text">Enter The Archives</span>
+              <span class="btn-quill" aria-hidden="true">📜</span>
+            </a>
+            <a href="#projects" class="btn-archival secondary-action">
+              <span class="btn-text">View My Work</span>
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="hero-card-footer">
+            <span class="archival-signoff">Archived in the Great Library of Knowledge</span>
+            <span class="archival-stamp verified">VERIFIED RECORD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">⚜</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- CHARACTER PROFILE SECTION -->
+    <section class="record-section" id="record">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">OFFICIAL ENROLLMENT DOSSIER</span>
+          <h2 class="section-title">Character Record</h2>
+          <p class="section-subtitle">A documented ledger of a Muggle-born artisan navigating the intersection of physical machines and digital enchantments.</p>
+        </div>
+
+        <div class="dossier-ledger-sheet">
+          <!-- Official Stamped Top Bar -->
+          <div class="ledger-header">
+            <div class="ledger-seal-group">
+              <div class="seal-icon">🏛️</div>
+              <div>
+                <span class="ledger-seal-title">MINISTRY OF APPLIED MECHANISMS</span>
+                <span class="ledger-seal-subtitle">OFFICE OF APPRENTICE EVALUATION</span>
+              </div>
+            </div>
+            <div class="ledger-status-tag">
+              <span class="pulse-indicator"></span>
+              ACTIVE APPRENTICESHIP
+            </div>
+          </div>
+
+          <div class="ledger-grid">
+            <!-- Row 1: Name & Role -->
+            <div class="ledger-cell">
+              <span class="ledger-key">FULL NAME</span>
+              <span class="ledger-val highlight-val">Ayush Mishra</span>
+              <span class="ledger-annotation">[ Registered Student & Creator ]</span>
+            </div>
+
+            <div class="ledger-cell">
+              <span class="ledger-key">ACADEMIC CRAFT</span>
+              <span class="ledger-val">Mechanical Engineering Student</span>
+              <span class="ledger-annotation">[ 2nd Year • Systems & Design ]</span>
+            </div>
+
+            <!-- Row 2: Quest (Spans 2 cols) -->
+            <div class="ledger-cell cell-full">
+              <span class="ledger-key">CURRENT QUEST</span>
+              <p class="ledger-val quest-val">
+                Exploring <strong>Robotics</strong>, kinematics, and <strong>NVIDIA Omniverse</strong> simulation environments, while advancing software engineering, clean architectures, and full-stack web systems.
+              </p>
+            </div>
+
+            <!-- Row 3: Specialities -->
+            <div class="ledger-cell">
+              <span class="ledger-key">ENGINEERING SPECIALITIES</span>
+              <ul class="ledger-list">
+                <li><span>✦</span> Web Application Development</li>
+                <li><span>✦</span> Systems & Logic Programming</li>
+                <li><span>✦</span> Mechanical Problem Solving</li>
+                <li><span>✦</span> Creative Interactive Technology</li>
+              </ul>
+            </div>
+
+            <!-- Row 4: Secondary Craft & Traits -->
+            <div class="ledger-cell">
+              <span class="ledger-key">SECONDARY CRAFT</span>
+              <span class="ledger-val">Photography & Visual Documentation</span>
+              <span class="ledger-annotation">[ Observing geometry, street frames, and light ]</span>
+
+              <div class="character-traits-container">
+                <span class="ledger-key mt-trait">CORE CHARACTER TRAIT</span>
+                <div class="traits-badges">
+                  <span class="trait-pill">Curious</span>
+                  <span class="trait-pill">Observant</span>
+                  <span class="trait-pill">Builder</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stamped Ledger Bottom -->
+          <div class="ledger-footer">
+            <div class="archival-stamp ink-red">RECORD CATALOGUED: DEPT-ME-09</div>
+            <div class="archival-stamp ink-gold">UNBROKEN CURIOSITY</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE CONNECTION: TRIAD SECTION -->
+    <section class="connection-section" id="connection">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">THE ARCHITECT'S COMPASS</span>
+          <h2 class="section-title">The Three Sides of The Character</h2>
+          <p class="section-subtitle">
+            Not three separate hobbies, but one unified character seeking to understand, craft, and capture the world.
+          </p>
+        </div>
+
+        <div class="triad-flow-container">
+          <!-- Pillar 1: OBSERVER -->
+          <div class="triad-card" id="triadObserver">
+            <div class="triad-number">01</div>
+            <div class="triad-icon">👁️</div>
+            <h3 class="triad-title">THE OBSERVER</h3>
+            <span class="triad-discipline">Photography & Perspective</span>
+            <p class="triad-body">
+              Photography taught me to <strong>slow down and notice details</strong> — spatial geometry, light angles, and subtle patterns that most rush past.
+            </p>
+            <div class="triad-lesson">
+              <span class="lesson-label">Core Lesson</span>
+              <span class="lesson-text">“Observation reveals the structure beneath the chaos.”</span>
+            </div>
+          </div>
+
+          <!-- Connector 1 -->
+          <div class="triad-connector" aria-hidden="true">
+            <div class="connector-line"></div>
+            <div class="connector-arrow">✦</div>
+            <span class="connector-text">feeds into</span>
+          </div>
+
+          <!-- Pillar 2: BUILDER -->
+          <div class="triad-card featured-triad" id="triadBuilder">
+            <div class="triad-number">02</div>
+            <div class="triad-icon">⚡</div>
+            <h3 class="triad-title">THE BUILDER</h3>
+            <span class="triad-discipline">Programming & Software Systems</span>
+            <p class="triad-body">
+              Programming taught me to <strong>turn observed ideas into robust systems</strong> — transforming logic, algorithms, and clean interfaces into tangible software.
+            </p>
+            <div class="triad-lesson">
+              <span class="lesson-label">Core Lesson</span>
+              <span class="lesson-text">“Code is the modern incantation that makes logic breathe.”</span>
+            </div>
+          </div>
+
+          <!-- Connector 2 -->
+          <div class="triad-connector" aria-hidden="true">
+            <div class="connector-line"></div>
+            <div class="connector-arrow">✦</div>
+            <span class="connector-text">expands into</span>
+          </div>
+
+          <!-- Pillar 3: EXPLORER -->
+          <div class="triad-card" id="triadExplorer">
+            <div class="triad-number">03</div>
+            <div class="triad-icon">⚙️</div>
+            <h3 class="triad-title">THE EXPLORER</h3>
+            <span class="triad-discipline">Robotics & Simulation</span>
+            <p class="triad-body">
+              Robotics and simulation are teaching me to <strong>connect pure software with the physical world</strong> — mechanics, sensors, kinematics, and intelligent movement.
+            </p>
+            <div class="triad-lesson">
+              <span class="lesson-label">Core Lesson</span>
+              <span class="lesson-text">“The ultimate magic is bringing mechanical steel to life.”</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Synthesis Quote -->
+        <div class="triad-synthesis">
+          <p class="synthesis-text">
+            “You cannot build what you cannot see; and you cannot simulate what you do not understand.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">✦</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- ABOUT THE CHARACTER (REAL PERSON CONVERSATION) -->
+    <section class="about-section" id="about">
+      <div class="section-container">
+        <div class="about-layout">
+          <div class="about-profile-sidebar">
+            <div class="profile-frame">
+              <div class="profile-inner">
+                <!-- Silhouette / Monogram Art -->
+                <div class="profile-crest-art">
+                  <span class="crest-sigil">⚙️⚡📷</span>
+                </div>
+                <h3 class="sidebar-name">Ayush Mishra</h3>
+                <span class="sidebar-meta">Mechanical Engineering Undergrad</span>
+                <span class="sidebar-loc">📍 India • 2nd Year</span>
+
+                <div class="sidebar-divider"></div>
+
+                <div class="sidebar-attributes">
+                  <div class="attr-row">
+                    <span class="attr-label">Primary Craft:</span>
+                    <span class="attr-val">Software & Mechanisms</span>
+                  </div>
+                  <div class="attr-row">
+                    <span class="attr-label">Current Focus:</span>
+                    <span class="attr-val">Robotics & Omniverse</span>
+                  </div>
+                  <div class="attr-row">
+                    <span class="attr-label">Creative Eye:</span>
+                    <span class="attr-val">Visual Photography</span>
+                  </div>
+                </div>
+
+                <div class="sidebar-wax-seal">
+                  <span>GENUINE RECORD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-narrative-content">
+            <span class="section-label">BEHIND THE VEIL</span>
+            <h2 class="section-title">About The Student Behind The Character</h2>
+
+            <div class="about-paragraphs">
+              <p class="lead-paragraph">
+                I’m <strong>Ayush</strong>, a second-year Mechanical Engineering student exploring the craft of software development, robotics, and physics simulation. I also enjoy photography, especially when I get the chance to capture interesting places, people, or architectural details.
+              </p>
+
+              <p>
+                In an era where technology often feels rushed, I approach engineering like an inquisitive student from the Muggle world who stumbled upon an ancient workshop. I love finding out how things function beneath the surface — whether it’s tracing a kinematic chain in a robotic arm, understanding how a web browser processes layout rendering, or figuring out the optimal aperture to isolate a subject in street light.
+              </p>
+
+              <div class="about-pillars-grid">
+                <div class="about-mini-card">
+                  <h4 class="mini-card-title">What I Enjoy Building</h4>
+                  <p class="mini-card-desc">
+                    Tools that bridge the digital and physical domains. I love writing clean, readable web interfaces, computational mechanical utilities, and simulation scripts that solve concrete problems without unnecessary bloat.
+                  </p>
+                </div>
+
+                <div class="about-mini-card">
+                  <h4 class="mini-card-title">What I Am Currently Learning</h4>
+                  <p class="mini-card-desc">
+                    I am diving deep into <strong>NVIDIA Omniverse & Isaac Sim</strong>, learning how photorealistic digital twins and physics simulation accelerate robotic testing before touching actual hardware. Alongside this, I continually refine my software fundamentals.
+                  </p>
+                </div>
+              </div>
+
+              <p class="closing-note">
+                I built this portfolio for the college design competition not as a corporate resume, but as an honest reflection of my journey. If you appreciate clean craftsmanship, purposeful code, or curious machines, welcome to my workshop.
+              </p>
+
+              <div class="about-signature-block">
+                <div class="signature-text">Ayush Mishra</div>
+                <span class="signature-meta">Student, Builder & Inquisitive Mind</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">📜</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- THE JOURNEY (CHAPTERS I TO V) -->
+    <section class="journey-section" id="journey">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">CHRONICLES OF AN APPRENTICE</span>
+          <h2 class="section-title">The Journey</h2>
+          <p class="section-subtitle">
+            Not a sterile timeline of corporate credentials, but the chapters of how curiosity shaped an engineer.
+          </p>
+        </div>
+
+        <div class="chapters-codex">
+          <!-- CHAPTER I -->
+          <article class="chapter-scroll" id="chapter1">
+            <div class="chapter-ribbon">
+              <span class="chapter-numeral">CHAPTER I</span>
+              <span class="chapter-era">THE ORIGIN</span>
+            </div>
+            <div class="chapter-main">
+              <h3 class="chapter-title">The First Spark</h3>
+              <p class="chapter-summary">The beginning of curiosity, taking things apart, and writing the first lines of code.</p>
+              <div class="chapter-narrative">
+                <p>
+                  Long before I understood formal programming paradigms, I had an insatiable urge to understand how everyday objects worked. I would take apart small mechanical clocks, radios, and toys just to inspect the interlocking gears and circuit boards.
+                </p>
+                <p>
+                  When I wrote my very first script and saw characters on a monitor bend to my commands, it genuinely felt like casting a spell. A few keystrokes could command logic, calculate outcomes, and build interactive things from sheer thought.
+                </p>
+              </div>
+              <div class="chapter-annotation">
+                <span class="annotation-key">Key Discovery:</span>
+                <span class="annotation-val">Code is not just syntax; it is executable imagination.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CHAPTER II -->
+          <article class="chapter-scroll" id="chapter2">
+            <div class="chapter-ribbon">
+              <span class="chapter-numeral">CHAPTER II</span>
+              <span class="chapter-era">THE CRAFT</span>
+            </div>
+            <div class="chapter-main">
+              <h3 class="chapter-title">The Digital World</h3>
+              <p class="chapter-summary">Learning modern development, building web projects, and understanding systems.</p>
+              <div class="chapter-narrative">
+                <p>
+                  Moving beyond toy scripts, I immersed myself in the architecture of the web. I spent nights mastering semantic HTML, modern CSS layouts, and Vanilla JavaScript, understanding the underlying document object model rather than relying blindly on heavy abstractions.
+                </p>
+                <p>
+                  I began building real web tools, experimenting with APIs, databases, and responsive design. This taught me that building good software requires empathy for the person on the other side of the screen.
+                </p>
+              </div>
+              <div class="chapter-annotation">
+                <span class="annotation-key">Key Discovery:</span>
+                <span class="annotation-val">Clarity, performance, and structure surpass noisy effects every single time.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CHAPTER III -->
+          <article class="chapter-scroll" id="chapter3">
+            <div class="chapter-ribbon">
+              <span class="chapter-numeral">CHAPTER III</span>
+              <span class="chapter-era">THE FOUNDATION</span>
+            </div>
+            <div class="chapter-main">
+              <h3 class="chapter-title">The Engineer</h3>
+              <p class="chapter-summary">Entering Mechanical Engineering, studying physical constraints, and real-world forces.</p>
+              <div class="chapter-narrative">
+                <p>
+                  Joining the Mechanical Engineering department grounded my digital instincts in physical reality. In software, an error throws an exception; in mechanical engineering, a miscalculated stress shears a shaft or fractures a bearing.
+                </p>
+                <p>
+                  Studying kinematics, thermodynamics, material science, and CAD forced me to respect physical constraints, tolerances, and the laws of physics. It gave my software ambitions a tangible anchor.
+                </p>
+              </div>
+              <div class="chapter-annotation">
+                <span class="annotation-key">Key Discovery:</span>
+                <span class="annotation-val">Physical reality doesn't have a garbage collector. Precision matters.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CHAPTER IV -->
+          <article class="chapter-scroll" id="chapter4">
+            <div class="chapter-ribbon">
+              <span class="chapter-numeral">CHAPTER IV</span>
+              <span class="chapter-era">THE CONVERGENCE</span>
+            </div>
+            <div class="chapter-main">
+              <h3 class="chapter-title">The Machines</h3>
+              <p class="chapter-summary">Beginning the journey into robotics, microcontrollers, and physical motion.</p>
+              <div class="chapter-narrative">
+                <p>
+                  The moment my software background met my mechanical training, robotics became my obsession. Teaching microcontrollers to read sensor data, calculating forward and inverse kinematics, and watching a physical mechanism execute code felt like true synthesis.
+                </p>
+                <p>
+                  I realized that the future of engineering lies at the intersection: software that understands physics, and mechanical systems that are intelligently orchestrated by software.
+                </p>
+              </div>
+              <div class="chapter-annotation">
+                <span class="annotation-key">Key Discovery:</span>
+                <span class="annotation-val">When software commands physical gears, code leaves the screen and enters the room.</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CHAPTER V -->
+          <article class="chapter-scroll current-quest-chapter" id="chapter5">
+            <div class="chapter-ribbon">
+              <span class="chapter-numeral">CHAPTER V</span>
+              <span class="chapter-era">THE HORIZON</span>
+            </div>
+            <div class="chapter-main">
+              <div class="quest-active-flag">CURRENT QUEST IN PROGRESS</div>
+              <h3 class="chapter-title">The Next Quest</h3>
+              <p class="chapter-summary">Learning NVIDIA Omniverse, physics-based simulation, and intelligent autonomous systems.</p>
+              <div class="chapter-narrative">
+                <p>
+                  Today, my focus is directed toward <strong>NVIDIA Omniverse and physics simulation</strong>. Rather than testing fragile prototypes repeatedly in the physical world, simulation allows engineers to simulate thousands of kinematic variations in digital twins.
+                </p>
+                <p>
+                  I am actively studying how USD (Universal Scene Description), physics engines, and robotics algorithms converge to train autonomous machines before they are ever manufactured.
+                </p>
+              </div>
+              <div class="chapter-annotation">
+                <span class="annotation-key">Destination:</span>
+                <span class="annotation-val">Pioneering solutions at the crossroads of robotics, software, and physical simulation.</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">⚡</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- SPELLS & SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">THE APPRENTICE’S GRIMOIRE</span>
+          <h2 class="section-title">Spells & Skills</h2>
+          <p class="section-subtitle">
+            Magical disciplines paired with explicit, real-world technical proficiencies. No smoke and mirrors — just practical engineering skills.
+          </p>
+        </div>
+
+        <div class="skills-catalog-grid">
+          <!-- DISCIPLINE 1: CHARMS -->
+          <div class="grimoire-card">
+            <div class="card-crest-header">
+              <span class="spell-rune">✨</span>
+              <div class="spell-discipline-meta">
+                <h3 class="spell-name">CHARMS</h3>
+                <span class="spell-subtitle">Frontend & Core Web Engineering</span>
+              </div>
+            </div>
+            <p class="discipline-desc">
+              The art of shaping what the user sees, touches, and experiences through clean, accessible web interfaces.
+            </p>
+            <div class="skills-rune-list">
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">JavaScript (ES6+)</span>
+                  <span class="tech-detail">Core logic, asynchronous flow, DOM</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">TypeScript</span>
+                  <span class="tech-detail">Type safety & structural patterns</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">HTML5 & Semantic Architecture</span>
+                  <span class="tech-detail">Accessibility, SEO, structure</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Modern CSS & Custom Properties</span>
+                  <span class="tech-detail">Responsive layout, Grid/Flexbox</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">React Fundamentals</span>
+                  <span class="tech-detail">Component design & state flow</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DISCIPLINE 2: POTION MAKING -->
+          <div class="grimoire-card">
+            <div class="card-crest-header">
+              <span class="spell-rune">🧪</span>
+              <div class="spell-discipline-meta">
+                <h3 class="spell-name">POTION MAKING</h3>
+                <span class="spell-subtitle">Backend Systems & Data Flow</span>
+              </div>
+            </div>
+            <p class="discipline-desc">
+              Careful concoctions of servers, data structures, and APIs that power applications silently behind the scenes.
+            </p>
+            <div class="skills-rune-list">
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Node.js & Express</span>
+                  <span class="tech-detail">REST APIs, middleware & servers</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Databases (SQL & NoSQL)</span>
+                  <span class="tech-detail">Schema design, query optimization</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">RESTful API Design</span>
+                  <span class="tech-detail">Endpoints, authentication, payloads</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Git & Version Control</span>
+                  <span class="tech-detail">Branching, workflows & GitHub</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">System Architecture Basics</span>
+                  <span class="tech-detail">Modularity, caching & reliability</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DISCIPLINE 3: DEFENCE AGAINST THE DARK ARTS -->
+          <div class="grimoire-card">
+            <div class="card-crest-header">
+              <span class="spell-rune">🛡️</span>
+              <div class="spell-discipline-meta">
+                <h3 class="spell-name">DEFENCE AGAINST THE DARK ARTS</h3>
+                <span class="spell-subtitle">Debugging & Analytical Logic</span>
+              </div>
+            </div>
+            <p class="discipline-desc">
+              Hunting elusive bugs, untangling algorithmic bottlenecks, and defending systems against edge-case failures.
+            </p>
+            <div class="skills-rune-list">
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Root-Cause Debugging</span>
+                  <span class="tech-detail">Profiler, devtools, memory traces</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Data Structures & Algorithms</span>
+                  <span class="tech-detail">Time & space complexity analysis</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Mathematical Problem Solving</span>
+                  <span class="tech-detail">Linear algebra, calculus for mechanics</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Clean Code & Refactoring</span>
+                  <span class="tech-detail">Maintainability, readability, DRY</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DISCIPLINE 4: MECHANICAL MAGIC -->
+          <div class="grimoire-card featured-discipline">
+            <div class="card-crest-header">
+              <span class="spell-rune">⚙️</span>
+              <div class="spell-discipline-meta">
+                <h3 class="spell-name">MECHANICAL MAGIC</h3>
+                <span class="spell-subtitle">Robotics, Simulation & 3D</span>
+              </div>
+            </div>
+            <p class="discipline-desc">
+              Infusing mechanical assemblies with code, simulating physics in virtual worlds, and preparing for robotics.
+            </p>
+            <div class="skills-rune-list">
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Robotics Kinematics</span>
+                  <span class="tech-detail">Forward/inverse kinematics, linkages</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">NVIDIA Omniverse & Simulation</span>
+                  <span class="tech-detail">USD workflows, physics modeling</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Python for Engineering</span>
+                  <span class="tech-detail">NumPy, SciPy, simulation scripts</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">3D CAD Modeling</span>
+                  <span class="tech-detail">Mechanical parts, tolerances, assemblies</span>
+                </div>
+              </div>
+              <div class="rune-item">
+                <span class="rune-dot">✦</span>
+                <div class="rune-info">
+                  <span class="tech-name">Physical Computing & Sensors</span>
+                  <span class="tech-detail">Microcontrollers, actuators, telemetry</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">📁</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- PROJECTS: THE MAGICAL ARCHIVES -->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">UNVEILED ARTIFACTS</span>
+          <h2 class="section-title">The Magical Archives</h2>
+          <p class="section-subtitle">
+            Classified project dossiers. Each record documents a concrete problem, the system architecture, and working code.
+          </p>
+        </div>
+
+        <!-- Archival Filter Tabs -->
+        <div class="archive-filter-bar" role="tablist" aria-label="Project Archive Categories">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            <span>All Dossiers</span>
+          </button>
+          <button type="button" class="filter-btn" data-filter="builder" role="tab" aria-selected="false">
+            <span>Builder (Software)</span>
+          </button>
+          <button type="button" class="filter-btn" data-filter="explorer" role="tab" aria-selected="false">
+            <span>Explorer (Robotics & Simulation)</span>
+          </button>
+          <button type="button" class="filter-btn" data-filter="observer" role="tab" aria-selected="false">
+            <span>Observer (Visual Systems)</span>
+          </button>
+        </div>
+
+        <!-- Dossiers Grid -->
+        <div class="dossiers-grid" id="projectsGrid">
+
+          <!-- PROJECT 1: OMNIVERSE ROBOTICS -->
+          <article class="dossier-card" data-category="explorer" data-project-id="omniverse-sim">
+            <div class="dossier-tab-header">
+              <span class="dossier-badge explorer-badge">EXPLORER</span>
+              <span class="dossier-ref">REF #EXP-081</span>
+            </div>
+            <div class="dossier-cover">
+              <h3 class="dossier-title">Robotics Kinematics & Omniverse Digital Twin</h3>
+              <p class="dossier-brief">
+                A physics-grounded simulation environment for evaluating robotic arm kinematics, joint constraints, and trajectories inside NVIDIA Omniverse.
+              </p>
+              <div class="dossier-tech-tags">
+                <span class="tag">NVIDIA Omniverse</span>
+                <span class="tag">Python</span>
+                <span class="tag">Kinematics</span>
+                <span class="tag">USD</span>
+              </div>
+              <button type="button" class="btn-dossier-toggle" aria-expanded="false">
+                <span class="toggle-text">Inspect Archival File</span>
+                <span class="toggle-icon">▼</span>
+              </button>
+            </div>
+
+            <!-- Expanded Details Section -->
+            <div class="dossier-expanded-content" hidden>
+              <div class="dossier-inner-sheet">
+                <div class="sheet-meta-grid">
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">My Role:</span>
+                    <span class="meta-val">Simulation Engineer & Algorithm Developer</span>
+                  </div>
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">Discipline:</span>
+                    <span class="meta-val">Mechanical Robotics & Simulation</span>
+                  </div>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">The Challenge & Purpose</h4>
+                  <p>
+                    Physical robotic arms can easily suffer mechanical collision damage when testing unverified motion algorithms. This project established a photorealistic simulation pipeline using NVIDIA Omniverse and Python to calculate forward/inverse kinematic solutions safely before deploying code to actuators.
+                  </p>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">Architecture & Key Implementation</h4>
+                  <p>
+                    Utilizes Universal Scene Description (USD) for articulated robotic meshes, integrates rigid-body physics solvers, and implements matrix calculations to compute joint angle limits and end-effector coordinates in 3D space.
+                  </p>
+                </div>
+
+                <div class="dossier-actions">
+                  <a href="https://github.com/ayush110109mishra" target="_blank" rel="noopener noreferrer" class="btn-dossier-link">
+                    <span>View GitHub Repository</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#" class="btn-dossier-link secondary-link" onclick="event.preventDefault(); alert('Interactive simulation documentation dossier open for inspection.');">
+                    <span>Simulation Logs</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: WEB CODEX / ALGORITHMIC CANVAS -->
+          <article class="dossier-card" data-category="builder" data-project-id="canvas-codex">
+            <div class="dossier-tab-header">
+              <span class="dossier-badge builder-badge">BUILDER</span>
+              <span class="dossier-ref">REF #BLD-042</span>
+            </div>
+            <div class="dossier-cover">
+              <h3 class="dossier-title">The Algorithmic Codex & Canvas Engine</h3>
+              <p class="dossier-brief">
+                A lightweight, zero-dependency interactive web application built with Vanilla JavaScript to visualize algorithmic pathfinding, sorting, and geometric mechanics.
+              </p>
+              <div class="dossier-tech-tags">
+                <span class="tag">Vanilla JS</span>
+                <span class="tag">HTML5 Canvas</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">CSS Grid</span>
+              </div>
+              <button type="button" class="btn-dossier-toggle" aria-expanded="false">
+                <span class="toggle-text">Inspect Archival File</span>
+                <span class="toggle-icon">▼</span>
+              </button>
+            </div>
+
+            <!-- Expanded Details Section -->
+            <div class="dossier-expanded-content" hidden>
+              <div class="dossier-inner-sheet">
+                <div class="sheet-meta-grid">
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">My Role:</span>
+                    <span class="meta-val">Full-Stack Frontend & Logic Architect</span>
+                  </div>
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">Discipline:</span>
+                    <span class="meta-val">Interactive Web Software</span>
+                  </div>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">The Challenge & Purpose</h4>
+                  <p>
+                    Many computer science concepts remain abstract until visually manipulated. This project implemented step-by-step graphical executions of Dijkstra, A*, and geometric linkage animations directly in the browser without third-party frameworks.
+                  </p>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">Architecture & Key Implementation</h4>
+                  <p>
+                    Engineered with requestAnimationFrame loops, modular ES6 classes, accessible keyboard controls, and pure CSS custom styling. Optimized to maintain 60 FPS rendering under heavy particle calculations.
+                  </p>
+                </div>
+
+                <div class="dossier-actions">
+                  <a href="https://github.com/ayush110109mishra" target="_blank" rel="noopener noreferrer" class="btn-dossier-link">
+                    <span>View GitHub Repository</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#projects" class="btn-dossier-link secondary-link" onclick="event.preventDefault(); alert('Running locally on Vanilla JS architecture.');">
+                    <span>Live Showcase</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: MECHANICAL LINKAGE ANALYZER -->
+          <article class="dossier-card" data-category="explorer" data-project-id="linkage-analyzer">
+            <div class="dossier-tab-header">
+              <span class="dossier-badge explorer-badge">EXPLORER</span>
+              <span class="dossier-ref">REF #MECH-019</span>
+            </div>
+            <div class="dossier-cover">
+              <h3 class="dossier-title">Mechanical Linkage & Kinematics Analyzer</h3>
+              <p class="dossier-brief">
+                A computational utility for calculating Grashof criteria, transmission angles, and torque limits across planar four-bar linkages.
+              </p>
+              <div class="dossier-tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">CAD Principles</span>
+                <span class="tag">Mechanism Design</span>
+              </div>
+              <button type="button" class="btn-dossier-toggle" aria-expanded="false">
+                <span class="toggle-text">Inspect Archival File</span>
+                <span class="toggle-icon">▼</span>
+              </button>
+            </div>
+
+            <!-- Expanded Details Section -->
+            <div class="dossier-expanded-content" hidden>
+              <div class="dossier-inner-sheet">
+                <div class="sheet-meta-grid">
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">My Role:</span>
+                    <span class="meta-val">Mechanical Designer & Programmer</span>
+                  </div>
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">Discipline:</span>
+                    <span class="meta-val">Kinematic Analysis & Engineering</span>
+                  </div>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">The Challenge & Purpose</h4>
+                  <p>
+                    Designing reliable mechanisms requires repeatedly recalculating transmission angles to avoid mechanical toggle locks. This project automated the vector loop equations for arbitrary 4-bar linkage dimensions.
+                  </p>
+                </div>
+
+                <div class="dossier-actions">
+                  <a href="https://github.com/ayush110109mishra" target="_blank" rel="noopener noreferrer" class="btn-dossier-link">
+                    <span>View GitHub Repository</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <a href="#record" class="btn-dossier-link secondary-link">
+                    <span>Engineering Dossier</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: THROUGH MY FRAMES -->
+          <article class="dossier-card" data-category="observer" data-project-id="through-my-frames">
+            <div class="dossier-tab-header">
+              <span class="dossier-badge observer-badge">OBSERVER</span>
+              <span class="dossier-ref">REF #OBS-007</span>
+            </div>
+            <div class="dossier-cover">
+              <h3 class="dossier-title">Through My Frames: Visual Journal</h3>
+              <p class="dossier-brief">
+                A dedicated web storytelling archive merging photographic observation with editorial typography, documenting light, geometry, and street scenes.
+              </p>
+              <div class="dossier-tech-tags">
+                <span class="tag">Creative Tech</span>
+                <span class="tag">Photography</span>
+                <span class="tag">Typography</span>
+                <span class="tag">HTML/CSS</span>
+              </div>
+              <button type="button" class="btn-dossier-toggle" aria-expanded="false">
+                <span class="toggle-text">Inspect Archival File</span>
+                <span class="toggle-icon">▼</span>
+              </button>
+            </div>
+
+            <!-- Expanded Details Section -->
+            <div class="dossier-expanded-content" hidden>
+              <div class="dossier-inner-sheet">
+                <div class="sheet-meta-grid">
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">My Role:</span>
+                    <span class="meta-val">Photographer, Designer & Web Builder</span>
+                  </div>
+                  <div class="sheet-meta-item">
+                    <span class="meta-label">Discipline:</span>
+                    <span class="meta-val">Visual Observation & Portfolio Design</span>
+                  </div>
+                </div>
+
+                <div class="dossier-section-block">
+                  <h4 class="dossier-subheading">The Challenge & Purpose</h4>
+                  <p>
+                    Rather than dumping photos onto commercial social feeds, this project treats photography as an archival engineering journal — documenting the framing rationale, lighting decisions, and context of each shot.
+                  </p>
+                </div>
+
+                <div class="dossier-actions">
+                  <a href="#observer" class="btn-dossier-link">
+                    <span>Explore Gallery Below</span>
+                    <span aria-hidden="true">↓</span>
+                  </a>
+                  <a href="https://github.com/ayush110109mishra" target="_blank" rel="noopener noreferrer" class="btn-dossier-link secondary-link">
+                    <span>GitHub Archive</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">📷</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- THE OBSERVER (PHOTOGRAPHY SECTION) -->
+    <section class="observer-section" id="observer">
+      <div class="section-container">
+        <div class="observer-header">
+          <span class="section-label">VISUAL MEDITATIONS</span>
+          <h2 class="section-title">The Observer</h2>
+          
+          <blockquote class="observer-quote">
+            “Not everything is built. Some things are noticed.”
+          </blockquote>
+          
+          <p class="observer-manifesto">
+            While technology makes me curious about <em>how things work</em>, photography makes me slow down and notice <em>how things look</em>. It is where engineering precision meets visual intuition — framing geometry in stillness, recognizing vanishing lines, and finding the quiet rhythm of human moments.
+          </p>
+        </div>
+
+        <!-- Archival Photography Grid -->
+        <div class="gallery-grid">
+          <!-- Photo 1: Architecture -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-01.jpg" data-photo-cat="ARCHITECTURE" data-photo-title="Geometry in Silence" data-photo-desc="Clean orthogonal shadows cast across structural arches. A study in architectural symmetry and how physical stone organizes ambient daylight.">
+            <div class="photo-matting">
+              <img src="assets/photo-01.jpg" alt="Architecture - Geometry in Silence photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">ARCHITECTURE</span>
+              <h4 class="caption-title">“Geometry in Silence”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-01 • Symmetrical Light</span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 2: Street -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-02.jpg" data-photo-cat="STREET" data-photo-title="Between the Frames" data-photo-desc="Human presence moving through urban geometry. Noticing the fleeting candid balance between bustling movement and quiet shadows.">
+            <div class="photo-matting">
+              <img src="assets/photo-02.jpg" alt="Street - Between the Frames photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">STREET</span>
+              <h4 class="caption-title">“Between the Frames”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-02 • Candid Scale</span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 3: Nature -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-03.jpg" data-photo-cat="NATURE" data-photo-title="After the Rain" data-photo-desc="Water droplets suspended on delicate botanical structures. How fluid surface tension creates miniature optical lenses in early morning light.">
+            <div class="photo-matting">
+              <img src="assets/photo-03.jpg" alt="Nature - After the Rain photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">NATURE</span>
+              <h4 class="caption-title">“After the Rain”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-03 • Micro Patterns</span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 4: Perspective -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-04.jpg" data-photo-cat="PERSPECTIVE" data-photo-title="Lines of Motion" data-photo-desc="Converging diagonals drawing the eye toward infinity. A testament to how mechanical structures like bridges and corridors guide visual attention.">
+            <div class="photo-matting">
+              <img src="assets/photo-04.jpg" alt="Perspective - Lines of Motion photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">PERSPECTIVE</span>
+              <h4 class="caption-title">“Lines of Motion”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-04 • Vanishing Vectors</span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 5: Light -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-05.jpg" data-photo-cat="LIGHT" data-photo-title="The Golden Hour" data-photo-desc="Warm amber dusk illuminating silhouettes. The brief window when harsh daylight softens into warm atmospheric gold across the horizon.">
+            <div class="photo-matting">
+              <img src="assets/photo-05.jpg" alt="Light - The Golden Hour photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">LIGHT</span>
+              <h4 class="caption-title">“The Golden Hour”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-05 • Atmospheric Amber</span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 6: Details -->
+          <figure class="photo-frame-card" data-photo-src="assets/photo-06.jpg" data-photo-cat="DETAILS" data-photo-title="Patterns in Steel" data-photo-desc="Close inspection of milled metal surfaces, fastener alignments, and mechanical textures where engineering craft meets aesthetic rhythm.">
+            <div class="photo-matting">
+              <img src="assets/photo-06.jpg" alt="Details - Patterns in Steel photograph by Ayush Mishra" class="photo-img" loading="lazy">
+              <div class="photo-hover-overlay">
+                <span class="overlay-action">Examine Print</span>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              <span class="caption-cat">DETAILS</span>
+              <h4 class="caption-title">“Patterns in Steel”</h4>
+              <span class="caption-meta">Frame Ref: AM-PH-06 • Precision Textures</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery-replace-hint">
+          <span class="hint-icon">💡</span>
+          <span class="hint-text">Note: All prints are configured in <code>assets/photo-01.jpg</code> through <code>assets/photo-06.jpg</code> and are easily replaced with your own camera captures.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">🏆</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- WIZARDING RECORD (AUTHENTIC ACHIEVEMENTS) -->
+    <section class="achievements-section" id="achievements">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">COMMENDATIONS & SEALS</span>
+          <h2 class="section-title">Wizarding Record</h2>
+          <p class="section-subtitle">
+            Authentic scholastic milestones, technical endeavors, and competitive achievements. No inflated metrics or imaginary credentials.
+          </p>
+        </div>
+
+        <div class="records-scroll-grid">
+          <!-- Record 1 -->
+          <div class="record-item">
+            <div class="record-seal-badge">🏅</div>
+            <div class="record-content">
+              <div class="record-meta-date">ACADEMIC EXCELLENCE</div>
+              <h3 class="record-name">Mechanical Engineering Scholar</h3>
+              <p class="record-desc">
+                Consistent academic performance in core engineering subjects: Kinematics of Machines, Engineering Thermodynamics, and Material Science.
+              </p>
+              <span class="record-institution">[ Department of Mechanical Engineering ]</span>
+            </div>
+          </div>
+
+          <!-- Record 2 -->
+          <div class="record-item">
+            <div class="record-seal-badge">⚡</div>
+            <div class="record-content">
+              <div class="record-meta-date">COMPETITION HONORS</div>
+              <h3 class="record-name">Portfolio & Innovation Design Competitor</h3>
+              <p class="record-desc">
+                Selected participant in the college portfolio design competition, showcasing character-driven storytelling paired with pure web engineering.
+              </p>
+              <span class="record-institution">[ College Portfolio & Design Challenge ]</span>
+            </div>
+          </div>
+
+          <!-- Record 3 -->
+          <div class="record-item">
+            <div class="record-seal-badge">⚙️</div>
+            <div class="record-content">
+              <div class="record-meta-date">EXPLORATION INITIATIVE</div>
+              <h3 class="record-name">Robotics & Simulation Research</h3>
+              <p class="record-desc">
+                Independent deep-dive into digital twin creation, robotic arm forward/inverse kinematics, and NVIDIA Omniverse Isaac Sim environments.
+              </p>
+              <span class="record-institution">[ Autonomous & Intelligent Systems Exploration ]</span>
+            </div>
+          </div>
+
+          <!-- Record 4 -->
+          <div class="record-item">
+            <div class="record-seal-badge">📷</div>
+            <div class="record-content">
+              <div class="record-meta-date">VISUAL ARTS</div>
+              <h3 class="record-name">Curated Visual Documentation</h3>
+              <p class="record-desc">
+                Continuous visual documentation project exploring spatial perspective, architectural symmetry, and observational photography.
+              </p>
+              <span class="record-institution">[ Personal Creative Archive • Through My Frames ]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-line"></div>
+      <div class="divider-crest">✉️</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- OWL POST (CONTACT SECTION) -->
+    <section class="owl-post-section" id="owl-post">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-label">PARCHMENT DISPATCH</span>
+          <h2 class="section-title">Owl Post</h2>
+          <p class="section-subtitle">
+            Whether you wish to discuss a robotics challenge, collaborate on web software, talk photography, or simply say hello.
+          </p>
+        </div>
+
+        <div class="owl-post-desk">
+          <!-- Left Column: Direct Links & Postal Details -->
+          <div class="post-office-card">
+            <div class="card-filigree corner-top-left" aria-hidden="true"></div>
+            <div class="card-filigree corner-top-right" aria-hidden="true"></div>
+
+            <div class="desk-seal-stamp">
+              <span class="owl-stamp-icon">🦉</span>
+              <span class="owl-stamp-title">HOGWARTS OWLERYS BUREAU</span>
+              <span class="owl-stamp-ref">DIRECT DISPATCH</span>
+            </div>
+
+            <div class="contact-methods-list">
+              <div class="method-row">
+                <span class="method-icon">✉️</span>
+                <div class="method-details">
+                  <span class="method-name">DIRECT POST (EMAIL)</span>
+                  <a href="mailto:ayush110109mishra@gmail.com" class="method-link">ayush110109mishra@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="method-row">
+                <span class="method-icon">🐙</span>
+                <div class="method-details">
+                  <span class="method-name">ARCHIVAL REPOSITORY (GITHUB)</span>
+                  <a href="https://github.com/ayush110109mishra" target="_blank" rel="noopener noreferrer" class="method-link">github.com/ayush110109mishra</a>
+                </div>
+              </div>
+
+              <div class="method-row">
+                <span class="method-icon">💼</span>
+                <div class="method-details">
+                  <span class="method-name">SCHOLAR NETWORK (LINKEDIN)</span>
+                  <a href="https://linkedin.com/in/ayush-mishra" target="_blank" rel="noopener noreferrer" class="method-link">linkedin.com/in/ayush-mishra</a>
+                </div>
+              </div>
+
+              <div class="method-row">
+                <span class="method-icon">📍</span>
+                <div class="method-details">
+                  <span class="method-name">CURRENT BASE</span>
+                  <span class="method-text">College of Engineering • India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="owl-post-assurance">
+              <span>✦ All dispatches receive prompt personal attention.</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Dispatch Letter Form -->
+          <div class="dispatch-form-card">
+            <form id="owlPostForm" class="parchment-form" novalidate>
+              <div class="form-header">
+                <h3 class="form-heading">Send a Dispatch</h3>
+                <span class="form-stamp-seal">BY BARN OWL</span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name & Title</label>
+                <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Professor McGonagall or John Doe" required>
+                <span class="field-error" id="nameError" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Return Address (Email)</label>
+                <input type="email" id="senderEmail" name="email" class="form-input" placeholder="your.name@domain.com" required>
+                <span class="field-error" id="emailError" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="dispatchSubject" class="form-label">Dispatch Topic / Subject</label>
+                <input type="text" id="dispatchSubject" name="subject" class="form-input" placeholder="Collaboration, Robotics, or a friendly hello..." required>
+                <span class="field-error" id="subjectError" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="dispatchMessage" class="form-label">The Parchment Message</label>
+                <textarea id="dispatchMessage" name="message" rows="4" class="form-textarea" placeholder="Inscribe your thoughts here..." required></textarea>
+                <span class="field-error" id="messageError" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn-dispatch" id="dispatchSubmitBtn">
+                <span class="btn-dispatch-icon">📜</span>
+                <span class="btn-dispatch-text">Seal & Dispatch Owl</span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback" role="status" aria-live="polite" hidden></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="archive-footer">
+    <div class="section-container footer-container">
+      <div class="footer-seal-mark">
+        <span class="seal-glyph">✦</span>
+      </div>
+      
+      <p class="footer-title">THE HOGWARTS ARCHIVES • AYUSH MISHRA</p>
+      
+      <p class="footer-sub">
+        An engineering student from the Muggle world who discovered the magic of building things with code, machines and creativity.
+      </p>
+
+      <div class="footer-meta-links">
+        <a href="#hero">Top of Archives</a>
+        <span class="footer-sep">•</span>
+        <a href="#record">Student Record</a>
+        <span class="footer-sep">•</span>
+        <a href="#projects">Project Dossiers</a>
+        <span class="footer-sep">•</span>
+        <a href="#observer">The Observer</a>
+        <span class="footer-sep">•</span>
+        <a href="#owl-post">Owl Post</a>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span class="copyright">Designed & hand-coded with HTML, CSS & Vanilla JS for the College Portfolio Challenge.</span>
+        <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Return to the top of the archives">
+          <span>Top of Tower</span>
+          <span aria-hidden="true">▲</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================== -->
+  <!-- SORTING HAT INTERACTIVE MODAL (EASTER EGG) -->
+  <!-- ================================================== -->
+  <div class="modal-backdrop" id="sortingHatModal" role="dialog" aria-modal="true" aria-labelledby="sortingHatTitle" hidden>
+    <div class="modal-dialog parchment-modal">
+      <button type="button" class="modal-close-btn" id="closeSortingHatBtn" aria-label="Close Sorting Hat Ceremony">&times;</button>
+      
+      <div class="hat-ceremony-content">
+        <!-- Stage 1: Welcome -->
+        <div class="hat-stage" id="hatIntroStage">
+          <div class="hat-crest-icon">🧙‍♂️</div>
+          <span class="modal-pretitle">ANCIENT HOGWARTS CEREMONY</span>
+          <h3 class="modal-title" id="sortingHatTitle">The Sorting Hat Considers You</h3>
+          <p class="modal-description">
+            “Ah, another curious mind approaches the archives. Let us see where your instincts in building, observing, and problem solving belong...”
+          </p>
+          <div class="modal-actions text-center">
+            <button type="button" class="btn-archival primary-action" id="startQuizBtn">
+              <span>Let The Hat Decide</span>
+              <span aria-hidden="true">✦</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Stage 2: Question Flow -->
+        <div class="hat-stage" id="hatQuizStage" hidden>
+          <div class="quiz-progress-bar">
+            <span class="progress-step-text" id="quizStepText">Question 1 of 3</span>
+            <div class="progress-track">
+              <div class="progress-fill" id="quizProgressFill" style="width: 33.33%;"></div>
+            </div>
+          </div>
+
+          <div class="question-container">
+            <h4 class="quiz-question-prompt" id="quizQuestionPrompt">Question Prompt</h4>
+            <div class="quiz-options-list" id="quizOptionsList">
+              <!-- Dynamically populated options -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage 3: Result Reveal -->
+        <div class="hat-stage" id="hatResultStage" hidden>
+          <div class="result-crest-box" id="resultCrestBox">
+            <span class="result-crest-emoji" id="resultCrestEmoji">🦅</span>
+          </div>
+          <span class="result-house-pre">THE SORTING HAT HAS SPOKEN:</span>
+          <h3 class="result-house-name" id="resultHouseName">RAVENCLAW</h3>
+          <p class="result-house-motto" id="resultHouseMotto">“Wit beyond measure is man's greatest treasure.”</p>
+          
+          <div class="result-verdict-box">
+            <span class="verdict-label">The Hat's Analysis of Your Engineering Spirit:</span>
+            <p class="result-verdict-text" id="resultVerdictText">
+              Your relentless analytical mind dissects mechanisms down to their mathematical truth. You belong with those who seek deep understanding before crafting reality.
+            </p>
+          </div>
+
+          <div class="result-actions">
+            <button type="button" class="btn-archival primary-action" id="returnToArchivesBtn">
+              <span>Return To The Archives</span>
+            </button>
+            <button type="button" class="btn-text-action" id="retrySortingBtn">
+              <span>Try Once More</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- PHOTOGRAPHY LIGHTBOX MODAL -->
+  <!-- ================================================== -->
+  <div class="modal-backdrop lightbox-backdrop" id="photoLightboxModal" role="dialog" aria-modal="true" aria-label="Photo Lightbox" hidden>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close-btn" id="closeLightboxBtn" aria-label="Close photo view">&times;</button>
+      
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrapper">
+          <img src="" alt="" id="lightboxImg" class="lightbox-img">
+        </div>
+        <div class="lightbox-meta-card">
+          <span class="lightbox-cat" id="lightboxCat">ARCHITECTURE</span>
+          <h3 class="lightbox-title" id="lightboxTitle">Geometry in Silence</h3>
+          <p class="lightbox-desc" id="lightboxDesc">Observational note text.</p>
+          <div class="lightbox-footer">
+            <span class="lightbox-credit">Ayush Mishra • Archival Print</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
