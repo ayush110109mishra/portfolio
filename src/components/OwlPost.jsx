@@ -95,8 +95,8 @@ export default function OwlPost() {
                 <span className="method-icon">✉️</span>
                 <div className="method-details">
                   <span className="method-name">DIRECT EMAIL</span>
-                  <a href="mailto:ayush110109mishra@gmail.com" className="method-link">
-                    ayush110109mishra@gmail.com
+                  <a href="mailto:honeymishra711@gmail.com" className="method-link">
+                    honeymishra711@gmail.com
                   </a>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function OwlPost() {
                 <div className="method-details">
                   <span className="method-name">GITHUB ARCHIVE</span>
                   <a
-                    href="https://github.com/ayush110109mishra"
+                    href="https://github.com/ayush110109mishra/ayush110109mishra"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="method-link"
@@ -121,12 +121,12 @@ export default function OwlPost() {
                 <div className="method-details">
                   <span className="method-name">LINKEDIN PROFILE</span>
                   <a
-                    href="https://linkedin.com/in/ayush-misra"
+                    href="https://www.linkedin.com/in/ayush-misra-66a803365"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="method-link"
                   >
-                    linkedin.com/in/ayush-misra
+                    linkedin.com/in/ayush-misra-66a803365
                   </a>
                 </div>
               </div>
