@@ -1,4 +1,4 @@
-# 📸 Through My Frames - Photography Portfolio
+# personal  portfolio website
 
 Welcome to my personal  portfolio! This project was crafted to showcase my creative eye behind the lens and my technical journey in frontend web development. 
 
